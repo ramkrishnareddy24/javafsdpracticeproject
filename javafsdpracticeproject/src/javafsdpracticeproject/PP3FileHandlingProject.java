@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.List;
 
-public class AP316FileHandlingProject {
+public class PP3FileHandlingProject {
 	public static void main(String[] args) throws IOException {
 		createFileUsingOutputStream();
 		readFileList("C:\\Users\\rkannari\\File\\test4.txt");
