@@ -2,7 +2,7 @@ package javafsdpracticeproject;
 
 import java.util.Scanner;
 
-public class AP16ArithmeticCalculator {
+public class PP1ArithmeticCalculator {
 	public static void main(String[] args) {
 		System.out.println("Calculator");
 
