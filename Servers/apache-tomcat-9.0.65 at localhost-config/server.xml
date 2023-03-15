@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="AP1.8GenericServlet" path="/AP1.8GenericServlet" reloadable="true" source="org.eclipse.jst.jee.server:AP1.8GenericServlet"/><Context docBase="AP1.9ServletClassesInterface" path="/AP1.9ServletClassesInterface" reloadable="true" source="org.eclipse.jst.jee.server:AP1.9ServletClassesInterface"/></Host>
+      <Context docBase="AP1.8GenericServlet" path="/AP1.8GenericServlet" reloadable="true" source="org.eclipse.jst.jee.server:AP1.8GenericServlet"/><Context docBase="AP1.9ServletClassesInterface" path="/AP1.9ServletClassesInterface" reloadable="true" source="org.eclipse.jst.jee.server:AP1.9ServletClassesInterface"/><Context docBase="AP1.12ServletFilter" path="/AP1.12ServletFilter" reloadable="true" source="org.eclipse.jst.jee.server:AP1.12ServletFilter"/><Context docBase="AP1.6SessionTracking" path="/AP1.6SessionTracking" reloadable="true" source="org.eclipse.jst.jee.server:AP1.6SessionTracking"/><Context docBase="AP1.8SessionUrlRewrite" path="/AP1.8SessionUrlRewrite" reloadable="true" source="org.eclipse.jst.jee.server:AP1.8SessionUrlRewrite"/></Host>
     </Engine>
   </Service>
 </Server>
